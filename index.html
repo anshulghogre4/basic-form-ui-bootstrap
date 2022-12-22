@@ -6,9 +6,485 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FORM</title>
     <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./main.css">
 </head>
-<body>
+<body class="body bg-white" style="min-height:100vh;">
     
+    <!-- main Border of the page -->
+    <section class="wrapper m-5 border border-2 border-secondary rounded" style="min-height:100vh">
+
+            <!-- Header or section1 -->
+
+            <header class="section1 mt-3 mx-5 border-bottom pb-5">
+
+                <div class="headline text-center ">
+                    
+                    <h2 class="text-decoration-underline">Application for the Post of PROJECT ENGINEER</h2>
+                        
+                </div>
+
+
+                <div class="d-flex flex-row justify-content-start align-items-center gap-5 mt-5">
+
+                    <div>
+                        <div class="d-flex gap-1 "><h6 class="fw-bold">1. Position Code (select
+                            one): </h6><span class="astrix text-danger fw-bold">*</span></div>
+                    </div>
+
+                    <div>
+                        <select name="select" id="select" class="ps-1 fs-7 p-1 bg-secondary bg-opacity-25 rounded-1" style="width:15rem;" >
+                            <option value="Select">Select</option>
+                        </select>
+                    </div>
+
+
+                </div>
+
+            </header>
+<!-- Header End -->
+
+
+            <!-- Second Section Starts -->
+            
+            <section class="section2 d-flex flex-row justify-content-start mt-3 mx-3 gap-4 border-bottom pb-2">
+
+                <!-- Personal Details -->
+                    <ul class="personalDetails d-flex flex-column gap-4" style="list-style-type: none;">
+                        <li><div class="d-flex flex-row justify-content-start align-items-center gap-5">
+
+                            <div>
+                                <div class="d-flex gap-1 "><h6 class="fw-bold">1.Name </h6><span class="astrix text-danger fw-bold">*</span></div>
+                            </div>
+        
+                            <div>
+                                <input type="text" class="border border-2 rounded-1  p-1" style="width: 25rem;" >
+                            </div>
+        
+        
+                        </div></li>
+
+                        <li><div class="d-flex flex-row justify-content-start align-items-center gap-4">
+
+                            <div>
+                                <div class="d-flex flex-row" style="width: 5.85rem;"><h6 class="fw-bold">3. Father's
+                                    Name:</h6><span class="astrix text-danger fw-bold" style="position: relative;right:0.4rem;">*</span></div>
+                            </div>
+        
+                            <div>
+                                <input type="text" class="border border-2 rounded-1  p-1 " style="width: 25rem;" >
+                            </div>
+        
+        
+                        </div></li>
+                        <li><div class="d-flex flex-row justify-content-start align-items-center gap-4">
+
+                            <div>
+                                <div class="d-flex flex-row" style="width: 5.85rem;"><h6 class="fw-bold">4. Date of
+                                    Birth:</h6><span class="astrix text-danger fw-bold" style="position: relative;right:0.4rem;">*</span></div>
+                            </div>
+        
+                            <div>
+                                <input type="date"  class="border border-2 rounded-1 py-1 px-3" style="width: 17.4rem;" >
+                            </div>
+
+                            <div>
+                                <label for="age" class="age fw-bold ">Age</label>
+                                <input type="text" class="p-1 rounded-1 border border-2 bg-secondary  bg-opacity-25" style="width: 4rem;" name="age"/>
+                            </div>
+        
+        
+                        </div></li>
+                        <li><div class="d-flex flex-row justify-content-start align-items-center gap-4">
+
+                            <div>
+                                <div class="d-flex flex-row" style="width: 5.85rem;"><h6 class="fw-bold">5. Gender:</h6><span class="astrix text-danger fw-bold" style="position: relative;right:-0.1rem;">*</span></div>
+                            </div>
+        
+                            <div>
+                                <select name="select" id="select" class="border border-2 rounded-1  p-1 " style="width: 25rem;" >
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                </select>
+                                
+                            </div>
+        
+        
+                        </div></li>
+                        <li><div class="d-flex flex-row justify-content-start align-items-center gap-4">
+
+                            <div>
+                                <div class="d-flex flex-row" style="width: 5.85rem;"><h6 class="fw-bold">6.Nationality:</h6><span class="astrix text-danger fw-bold" style="position: relative;right:-0.1rem;">*</span></div>
+                            </div>
+        
+                            <div>
+                                <input type="text" class="border border-2 rounded-1  p-1 " style="width: 25rem;" >
+                            </div>
+        
+        
+                        </div></li>
+                        <li><div class="d-flex flex-row justify-content-start align-items-center gap-4">
+
+                            <div>
+                                <div class="d-flex flex-row" style="width: 5.85rem;" ><h6 class="fw-bold">7. Martial
+                                    Status:
+                                    </h6><span class="astrix text-danger fw-bold" style="position: relative;right:0.4rem;">*</span></div>
+                            </div>
+        
+                            <div>
+                                <select name="select" id="select" class="border border-2 rounded-1  p-1 " style="width: 25rem;" >
+                                    <option value="">Select</option>
+                                    <option value="Married">Married</option>
+                                    <option value="Unmarried">Unmarried</option>
+                                </select>
+                                
+                            </div>
+        
+        
+                        </div></li>
+                        <li><div class="d-flex flex-row justify-content-start align-items-center gap-5">
+
+                            <div>
+                                <div class="d-flex gap-1 "><h6 class="fw-bold" style="width: 10rem;">8. Whether belongs to
+                                    (select one): </h6><span class="astrix text-danger fw-bold">*</span></div>
+                            </div>
+        
+                            <div class="d-flex flex-row gap-1">
+                               
+                                <div><label for="">SC</label>
+                                <input type="radio" name="Reservation" id="SC"></div>
+                                <div><label for="">ST</label>
+                                    <input type="radio" name="Reservation" id="ST"></div>
+                                <div><label for="">OBC</label>
+                                    <input type="radio" name="Reservation" id="OBC"></div>
+                                <div><label for="">PWD</label>
+                                    <input type="radio" name="Reservation" id="PWD"></div>
+                                <div><label for="">General</label>
+                                    <input type="radio" name="Reservation" id="General"></div>
+                            </div>
+        
+        
+                        </div></li>
+                    </ul>
+   
+
+                <div class="photo d-flex flex-column justify-content-start align-items-start gap-2">
+                    <div>
+                        <div class="d-flex gap-1 "><h6 class="fw-bold" style="width: 10rem;">Upload Your Photo</h6><span class="astrix text-danger fw-bold" style="position: relative;right:1rem;">*</span></div>
+                    </div>
+                    <div class="pictureHolder border border-2 mb-4" style="height: 12rem;width: 10rem;">
+
+                    </div>
+                    <div>
+                        <input type="file">
+                    </div>
+                </div>
+
+            </section>
+<!-- End Of Section 2 Personal Details -->
+
+        <!-- Section 3 starts -->
+            <Section class="section3 d-flex flex-column justify-content-start mt-3 mx-5 border-bottom pb-4">
+
+                <!-- inside section1 -->
+                <div class="d-flex flex-row justify-content-between align-items-center gap-5 mb-3">
+
+                    <div>
+                        <div class="d-flex flex-row" style="width: 10rem;" ><h6 class="fw-bold">9. Proof of Identity: 
+                            </h6><span class="astrix text-danger fw-bold" style="position: relative;right:-0.1rem;">*</span></div>
+                    </div>
+
+                    <div>
+                        <select name="select" id="select" class="border border-2 rounded-1  p-1 " style="width: 25rem;" >
+                            <option value="Aadhar">Aadhar Number</option>
+                            <option value="PAN">PAN Number</option>
+                        </select>
+                        
+                    </div>
+
+                    <div>
+                        <input type="text" placeholder="Write your Aadhar/PAN number" class="border border-2 rounded-1  p-1 " style="width: 20rem;" >
+                    </div>
+
+
+                </div>
+
+                <!-- inside section 2 -->
+
+                <div class="d-flex flex-row justify-content-between align-items-center mt-3">
+                    <div class="d-flex flex-column gap-4">
+
+                        <!-- text area part -->
+
+                        <div class="d-flex flex-row justify-content-start align-items-center gap-5">
+
+                            <div>
+                                <div class="d-flex flex-row me-5" style="width: 5.85rem;"><h6 class="fw-bold">10. Address for
+                                    Correspondence:
+                                    </h6><span class="astrix text-danger fw-bold" style="position: relative;right:-0.1rem;">*</span></div>
+                            </div>
+        
+                            <div>
+                                <textarea name="textarea" id="textarea" cols="40" rows="3" class="border border-2 rounded-1  p-1 "></textarea>
+                              
+                            </div>
+        
+        
+                        </div>
+                        <!-- textarea end -->
+                        <!-- State and city selection -->
+                        <div class="d-flex flex-row justify-content-start align-items-center gap-3">
+                            <div class="d-flex flex-column">
+                                <div>
+                                    <div class="d-flex flex-row " style="width: 10rem;" ><h6 class="fw-bold">Select State:
+                                        </h6><span class="astrix text-danger fw-bold" style="position: relative;right:-0.1rem;">*</span></div>
+                                </div>
+            
+                                <div>
+                                    <select name="select" id="select" class="border border-2 rounded-1  p-1 " style="width: 15.4rem;" >
+                                        <option value="">Select</option>
+                                    </select>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="d-flex flex-column">
+                                <div>
+                                    <div class="d-flex flex-row" style="width: 10rem;" ><h6 class="fw-bold">Select City/Town:
+                                        </h6><span class="astrix text-danger fw-bold" style="position: relative;right:-0.1rem;">*</span></div>
+                                </div>
+            
+                                <div>
+                                    <select name="select" id="select" class="border border-2 rounded-1  p-1 " style="width: 15.4rem;" >
+                                        <option value="">Select</option>
+                                    </select>
+                                    
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- State and city selection end-->
+                        <!-- Pincode starts -->
+                        <div class="d-flex flex-row justify-content-start align-items-center gap-4">
+
+                            <div>
+                                <div class="d-flex flex-row" style="width: 5.85rem;"><h6 class="fw-bold">Pincode:</h6><span class="astrix text-danger fw-bold" style="position: relative;right:-0.1rem;">*</span></div>
+                            </div>
+        
+                            <div>
+                                <input type="text" class="border border-2 rounded-1  p-1 " style="width: 24.5rem;" >
+                            </div>
+        
+                        </div>
+
+                    </div>
+
+
+                    <!-- Right side starts for this section 2 -->
+                    <div class="d-flex flex-column gap-4">
+                            <p>Phone Numbers (with STD Codes)</p>
+                        <!-- office/residence/mobile -->
+
+                        <div class="d-flex flex-row justify-content-between align-items-center">
+                            <!-- office -->
+                            <div class="d-flex flex-column">
+                                <div>
+                                    <div class="d-flex flex-row" style="width: 10rem;" ><h6 class="fw-bold">Office: 
+                                        </h6></div>
+                                </div>
+            
+                                <div>
+                                    <input type="text" class="border border-2 rounded-1  p-1 " style="width:10rem;" >
+                                </div>
+                            </div>
+                            <!-- Residence -->
+                            <div class="d-flex flex-column">
+                                <div>
+                                    <div class="d-flex flex-row" style="width: 10rem;" ><h6 class="fw-bold">Residence: 
+                                        </h6></div>
+                                </div>
+            
+                                <div>
+                                    <input type="text" class="border border-2 rounded-1  p-1 " style="width:10rem;" >
+                                </div>
+                            </div>
+                             <!-- Mobile -->
+                             <div class="d-flex flex-column">
+                                <div>
+                                    <div class="d-flex flex-row" style="width: 10rem;" ><h6 class="fw-bold">Mobile: 
+                                        </h6><span class="astrix text-danger fw-bold" style="position: relative;right:-0.1rem;">*</span></div>
+                                </div>
+            
+                                <div>
+                                    <input type="text" class="border border-2 rounded-1  p-1 " style="width:10rem;" >
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- column for primary email and secondary email -->
+                        <div class="d-flex flex-column gap-4">
+                            <!-- primary email -->
+                            <div class="d-flex flex-row justify-content-start align-items-center gap-4">
+
+                                <div>
+                                    <div class="d-flex flex-row" style="width: 5.85rem;"><h6 class="fw-bold">Primary Email:</h6><span class="astrix text-danger fw-bold" style="position: relative;right:-0.1rem;">*</span></div>
+                                </div>
+            
+                                <div>
+                                    <input type="text" class="border border-2 rounded-1 bg-secondary bg-opacity-25 p-1 " style="width: 25rem;" placeholder="Enter email" >
+                                </div>
+            
+            
+                            </div>
+                            <!-- Secondary Email -->
+                            <div class="d-flex flex-row justify-content-start align-items-center gap-4">
+
+                                <div>
+                                    <div class="d-flex flex-row" style="width: 5.85rem;"><h6 class="fw-bold">Secondary Email:</h6></div>
+                                </div>
+            
+                                <div>
+                                    <input type="text" class="border border-2 rounded-1  p-1 " style="width: 25rem;" placeholder="Enter email" >
+                                </div>
+            
+            
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+            </Section>
+            <!-- Section 3 End -->
+            <!-- Section 4 Starts (working with CDAC ,employed in Govt/semi Govt, interviewd for the post of CDAC) -->
+
+            <section  class="section4 d-flex flex-column justify-content-start mt-3 mx-5 border-bottom pb-4 gap-4">
+
+                <!-- 11th point -->
+                <div class="d-flex flex-row justify-content-start align-items-center  gap-5 ">
+
+                    <div>
+                        <div class="d-flex flex-row" ><h6 class="fw-bold">11. Are you currently working with C-DAC? 
+                            </h6><span class="astrix text-danger fw-bold" style="position: relative;right:-0.1rem;">*</span></div>
+                    </div>
+
+                    <div class="me-5">
+                        <select name="select" id="select" class="border border-2 rounded-1  p-1 " style="width: 25rem;" >
+                            <option value="">Select</option>
+                            <option value="NO">No</option>
+                            <option value="Yes">Yes</option>
+                        </select>
+                        
+                    </div>
+
+
+                </div>
+                <!-- 12th point -->
+                <div class="d-flex flex-row justify-content-start align-items-center gap-5 ">
+
+                    <div>
+                        <div class="d-flex flex-row" ><h6 class="fw-bold" style="width: 20rem;">12. Are you employed in any Govt./ Semi-Govt./ PSU/
+                            Autonomous Bodies?</h6><span class="astrix text-danger fw-bold" style="position: relative;right:-0.1rem;">*</span></div>
+                    </div>
+
+                    <div class="me-5">
+                        <select name="select" id="select" class="border border-2 rounded-1  p-1 " style="width: 25rem;" >
+                            <option value="">Select</option>
+                            <option value="Government">Government</option>
+                            <option value="Non-Government">Non-Government</option>
+                        </select>
+                        
+                    </div>
+
+
+                </div>
+                <!-- Line in between -->
+                <div>
+                    <p>If <span class="fw-bold">"Yes"</span> the application should be forwarded through proper channel or NOC to be produced at the time of Interview.
+                    </p>
+                </div>
+
+                <!-- 13th point -->
+                <div class="d-flex flex-row justify-content-start align-items-center gap-5 ">
+
+                    <div>
+                        <div class="d-flex flex-row" ><h6 class="fw-bold" style="width: 20rem;">13. Have you ever been interviewed for recruitment in any
+                            post in C-DAC earlier?</h6><span class="astrix text-danger fw-bold" style="position: relative;right:-0.1rem;">*</span></div>
+                    </div>
+
+                    <div class="me-5">
+                        <select name="select" id="select" class="border border-2 rounded-1  p-1 " style="width: 25rem;" >
+                            <option value="">Select</option>
+                            <option value="NO">No</option>
+                            <option value="Yes">Yes</option>
+                        </select>
+                        
+                    </div>
+
+
+                </div>
+
+            </section>
+            <!-- Section 4 end -->
+            <!-- Section - 5  (Academic details)-->
+            <section class="section5 d-flex flex-column justify-content-start mt-3 mx-5 border-bottom pb-4 gap-4">
+                
+                    <div class="d-flex flex-row justify-content-start align-items-center text-center  " >
+                        <h6 class="fw-bold" >14. Academic & Professional Qualifications.</h6>
+                        <span class="fs-6" style="position: relative; bottom: 0.2rem;">(Begin with latest Graduation/ PG/ PG Diploma (if any)/ PhD)
+                    </span>
+                </div>
+                
+                <table class="border border-2 " >
+                    <!-- academic head -->
+                    <tr class="border border-2 py-2">
+                        <th class="border border-2 ps-4 py-5"><div class="d-flex flex-row" ><h6 class="fw-bold">Qualification
+                        </h6><span class="astrix text-danger fw-bold" style="position: relative;right:-0.1rem;">*</span></div></th>
+
+                        <th class="border border-2  ps-5"><div class="d-flex flex-row" ><h6 class="fw-bold" style="width: 13rem;">Name of Institute/ Board/
+                            University
+                        </h6><span class="astrix text-danger fw-bold" style="position: relative;right:-0.1rem;">*</span></div></th>
+                        <th class="border border-2  ps-4"><div class="d-flex flex-row" ><h6 class="fw-bold">Specialization
+                        </h6><span class="astrix text-danger fw-bold" style="position: relative;right:-0.1rem;">*</span></div></th>
+
+                        <th class="border border-2  ps-4"><div class="d-flex flex-row" ><h6 class="fw-bold">Year of
+                            Passing
+                        </h6><span class="astrix text-danger fw-bold" style="position: relative;right:-0.1rem;">*</span></div></th>
+
+                        <th class="border border-2  ps-4"><div class="d-flex flex-row" ><h6 class="fw-bold">% Marks 
+                            (Aggregate)                            
+                        </h6><span class="astrix text-danger fw-bold" style="position: relative;right:-0.1rem;">*</span></div></th>
+                        <th class="border border-2  ps-4"><div class="d-flex flex-row" ><h6 class="fw-bold" style="width: 5rem;">Class/
+                            Division/ 
+                            Rank/
+                            Distinction                                                        
+                        </h6></div></th>
+                        <th class="border border-2"><button class="bg-primary text-light border-primary rounded-1">Add Row</button></th>
+                    </tr>
+                        <!-- Academic data -->
+                        <tr class="border border-2 ">
+                            <td class="border border-2 py-3 ps-3"><select name="select" id="select" class="border border-2 rounded-1  p-1 " style="width: 8rem;" >
+                                <option value="">Select</option>
+                             
+                            </select></td>
+                            <td class="border border-2  ps-5"><input type="text" class="border border-2 rounded-1  p-1 " style="width:13rem;" ></td>
+                            <td class="border border-2  ps-3"><input type="text" class="border border-2 rounded-1  p-1 " style="width:8rem;" ></td>
+                            <td class="border border-2  ps-4"><input type="text" class="border border-2 rounded-1  p-1 " style="width:5rem;" ></td>
+                            <td class="border border-2  ps-5"><input type="text" class="border border-2 rounded-1  p-1 " style="width:5rem;" ></td>
+                            <td class="border border-2  ps-4"><input type="text" class="border border-2 rounded-1  p-1 " style="width:5rem;" ></td>
+                            <td class="border border-2  ps-3"><button class="bg-danger text-light border-danger rounded-1">Delete</button></td>
+                        </tr>
+
+                </table>
+
+
+            </section>
+        
+    </section>
+
 </body>
 </html>

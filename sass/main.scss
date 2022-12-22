@@ -1,0 +1,62 @@
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4.5,
+  7: $spacer * 5.5,
+  8: $spacer * 7,
+  9: $spacer * 8.5,
+  10: $spacer * 10,
+  11: $spacer * 11.5,
+  12: $spacer * 13,
+  13: $spacer * 14.5,
+  14: $spacer * 16,
+  15: $spacer * 17.5,
+  16: $spacer * 19,
+  17: $spacer * 20.5,
+  18: $spacer * 22,
+  19: $spacer * 23.5,
+  20: $spacer * 25,
+  21: $spacer * 26.5,
+  22: $spacer * 28,
+  23: $spacer * 29.5,
+  24: $spacer * 31,
+  25: $spacer * 32.5,
+  26: $spacer *34,
+
+);
+
+$font-size-base:1rem;
+$h1-font-size:                $font-size-base * 2.5;
+$h2-font-size:                $font-size-base * 2;
+$h3-font-size:                $font-size-base * 1.75;
+$h4-font-size:                $font-size-base * 1.5;
+$h5-font-size:                $font-size-base * 1.25;
+$h6-font-size:                $font-size-base;
+$h7-font-size: $font-size-base*0.9;
+$h8-font-size: $font-size-base*0.8;
+$h9-font-size: $font-size-base*0.75;
+$font-sizes: (
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: $h5-font-size,
+  6: $h6-font-size,
+  7: $h7-font-size,
+  8: $h8-font-size,
+  9: $h9-font-size,
+);
+
+
+
+
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
